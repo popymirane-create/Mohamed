@@ -52,13 +52,13 @@ export default function PopeExchange() {
                   1
                 </span>
                 <Label htmlFor="xbet-id" className="text-sm font-medium">
-                  1xbet ID
+                  Game ID
                 </Label>
               </div>
               <Input
                 id="xbet-id"
                 type="text"
-                placeholder="Enter your 1xbet ID"
+                placeholder="Enter your Game ID"
                 value={xbetId}
                 onChange={(e) => setXbetId(e.target.value)}
                 className="bg-card border-border focus:ring-accent"
