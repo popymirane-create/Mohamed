@@ -45,14 +45,14 @@ export default function PopeExchange() {
             </p>
           </CardHeader>
           <CardContent className="space-y-6">
-            {/* Option 1: game id */}
+            {/* Option 1: 1xbet id */}
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <span className="flex items-center justify-center w-6 h-6 rounded-md bg-primary text-primary-foreground text-xs font-semibold">
                   1
                 </span>
                 <Label htmlFor="xbet-id" className="text-sm font-medium">
-                  game ID
+                  1xbet ID
                 </Label>
               </div>
               <Input
