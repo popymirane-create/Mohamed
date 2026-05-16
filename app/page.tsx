@@ -45,20 +45,20 @@ export default function PopeExchange() {
             </p>
           </CardHeader>
           <CardContent className="space-y-6">
-            {/* Option 1: 1xbet ID */}
+            {/* Option 1: game id */}
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <span className="flex items-center justify-center w-6 h-6 rounded-md bg-primary text-primary-foreground text-xs font-semibold">
                   1
                 </span>
                 <Label htmlFor="xbet-id" className="text-sm font-medium">
-                  1xbet ID
+                  game ID
                 </Label>
               </div>
               <Input
                 id="xbet-id"
                 type="text"
-                placeholder="Enter your 1xbet ID"
+                placeholder="Enter your game ID"
                 value={xbetId}
                 onChange={(e) => setXbetId(e.target.value)}
                 className="bg-card border-border focus:ring-accent"
